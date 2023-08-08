@@ -88,7 +88,7 @@ class Titanic:
     
 
 if __name__ == '__main__':
-    df = pd.read_csv(/Users/alexanderbriody/Desktop/Coding Temple/Data-Analytics-Projects/Week_5/Titanic/Titanic/titanic.csv)
+    df = pd.read_csv('/Users/alexanderbriody/Desktop/Coding Temple/Data-Analytics-Projects/Week_5/Titanic/Titanic/titanic.csv')
     c = Titanic()
     c.create_tables('/Users/alexanderbriody/Desktop/Coding Temple/Data-Analytics-Projects/Week_5/Titanic/Titanic/titanic_create.sql')
     c.insert_data('/Users/alexanderbriody/Desktop/Coding Temple/Data-Analytics-Projects/Week_5/Titanic/Titanic/titanic_insert.sql')
