@@ -11,7 +11,7 @@ load_dotenv()
 class Titanic:
     # Step 3a: Create a user, password, server variable by accessing the .env file
     # We will keep these items as a secret under our class by using the __ method
-    __user = getenv("USER")
+    __user = getenv("DB")
     __password = getenv("PASSWORD")
     __server = getenv("SERVER")
     
